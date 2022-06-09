@@ -1000,8 +1000,40 @@ form.registration-form {
     text-align: center;
 }
 
+/* tokenomics */
+
+.rate{
+    color: #2E74B6;
+}
+
+.testi-card{
+    width: 100%;
+    background: #fdfdfd;
+    margin-bottom: 20px;
+}
+
+.testi-para{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.testi-image{
+    width: 100px;
+    height: auto;
+    margin-top: -10px;
+}
+
+.testi-main{
+    padding: 0 5px 0 20px;
+}
+
 @media(max-width: 767px) {
     form.registration-form {
         max-width: 100%;
     }
+
+    .testi-para{
+        font-size: 18px;
+    }
+
 }
