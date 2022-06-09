@@ -93,38 +93,25 @@
 				</div>
 			</div>
 		</section>
-		<section class="location_advan pb-5" id="locality">
-			<div class = "">
-				<div class="row no-gutters">
-					<div class="col-lg-6">
-						<div class="advan_inner">
-							<div class="h2">Contact Us</div>
-							<form>
-								<div class="form-group mb-3">
-									<label class = "mb-1 mt-2" for="">Name</label>
-									<input type="tel" class="form-control py-3" id="" placeholder="Enter Your Name">
-								</div>
-								<div class="form-group mb-3">
-								  <label class = "mb-1" for="exampleInputEmail1">Email address</label>
-								  <input type="email" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-								  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-								</div>
-								<div class="form-group mb-3">
-								  <label class = "mb-1" for="">Phone Number</label>
-								  <input type="tel" class="form-control py-3" id="" placeholder="Phone number">
-								</div>
-								<div class="form-group mb-3 form-check">
-								  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-								  <label class = "mb-1" class="form-check-label" for="exampleCheck1">Check me out</label>
-								</div>
-								<button type="submit" class="btn btn-primary">Submit</button>
-							  </form>
-						</div>
-					</div>
-					<figure class="col-lg-6"><img src="images//521120.jpg" class="img-fluid" alt="Best Location for Seamless Connectivity"></figure>
-				</div>
-			</div>
-		</section>
+    <!-- Registration Section Start Here -->
+    <section class="registration-form-section" id="register">
+        <div class="">
+            <div class="registration-form-inner">
+                <h2>Register your interest</h2>
+                <form class="registration-form" method="post" action="mail.php">
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="contact" placeholder="Mobile">
+                    <input type="hidden" name="subject" value="SSLeaf" />
+                    <div class="register-btn">
+                        <button type="submit">
+                            <span>register</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
 	</main>
 	<footer class="footer">
